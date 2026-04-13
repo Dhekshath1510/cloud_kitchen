@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\projects\nodeJS\cloud-kitchen-web-app\fastapiBackend\venv
+set VIRTUAL_ENV=E:\Cloud Kitchen - Cloud Computing\new\cloud_kitchen_web_app\fastapibackend\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

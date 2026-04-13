@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     # Azure integration dynamic port extraction is done at runtime in main.py or startup script.
     
     # Environment configs
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/cloudkitchen")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://postgres:dhek%401510@localhost:5432/cloud_kitchen")
     
     # Security
     SECRET_KEY: str = os.getenv("SECRET_KEY", "your-super-secret-key-for-jwt-do-not-share")
